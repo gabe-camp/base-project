@@ -1,2 +1,6 @@
 # base-project
 A python base project which contains the foundation of a good python project.
+
+python-semantic-release - https://github.com/relekang/python-semantic-release
+python-dotenv - https://github.com/theskumar/python-dotenv
+tox - https://github.com/tox-dev/tox
