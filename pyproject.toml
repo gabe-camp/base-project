@@ -7,3 +7,21 @@ version_variable = [
   'src/baseproject/__init__.py:__version__',
   'setup.py:__version__'
 ]
+
+[tool.tox]
+legacy_tox_ini = """
+[tox]
+envlist = py38,flake
+
+[testenv]
+deps = pytest
+commands = pytest
+
+[testenv:flake]
+deps = flake8
+commands = flake8
+
+[pytest]
+testpaths =
+  tests
+"""
